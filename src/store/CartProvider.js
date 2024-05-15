@@ -17,7 +17,7 @@ const CartProvider = props => {
         items: items,
         totolAmount: 0,
         addItem: addItemToCartHandler,
-        removeItem: removeItemFromCartHandler 
+        removeItem: removeItemFromCartHandler ,
     };
     return (
         <CartContext.Provider value={cartContext}>
